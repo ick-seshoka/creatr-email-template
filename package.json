@@ -1,0 +1,23 @@
+{
+  "name": "html_email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ick-seshoka/creatr-email-template.git"
+  },
+  "author": "Creatr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ick-seshoka/creatr-email-template/issues"
+  },
+  "homepage": "https://github.com/ick-seshoka/creatr-email-template#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

@@ -7,3 +7,6 @@ config.codekit3
 ### CodeKit Patch ###
 */codekit-config.json
 .codekit-cache
+
+### Node modukes ###
+/node_modules

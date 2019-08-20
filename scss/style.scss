@@ -14,7 +14,7 @@
     color: #424242;
 
     font: {
-        size: 2rem;
+        size: 1rem;
         weight: 400;
     }
 }
@@ -87,7 +87,7 @@
                     }
                 }
 
-                .welcome {
+                &.welcome {
                     display: inline-block;
                     text-align: center;
                     margin-top: 2rem;
