@@ -25,28 +25,24 @@
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     padding: 0 10px; }
-    .email-body .email-container .email-header {
-      display: flex;
-      align-items: center; }
-      .email-body .email-container .email-header .image-wrap {
-        flex-grow: 2; }
-        .email-body .email-container .email-header .image-wrap img {
-          max-width: 230px; }
-      .email-body .email-container .email-header .email-title {
-        flex-grow: 1;
-        text-align: center;
-        height: 180px;
-        line-height: 180px; }
-        .email-body .email-container .email-header .email-title div {
-          background-color: #0A0A0A;
-          align-self: flex-end;
-          height: 180px; }
-          .email-body .email-container .email-header .email-title div p {
-            color: white;
-            font-size: 40px;
-            text-transform: uppercase;
-            font-weight: 900;
-            letter-spacing: 3px; }
+    .email-body .email-container .email-header .image-wrap {
+      text-align: center;
+      margin: 60px 0; }
+      .email-body .email-container .email-header .image-wrap img {
+        width: 200px; }
+    .email-body .email-container .email-header .email-title {
+      text-align: center;
+      height: 160px;
+      line-height: 160px; }
+      .email-body .email-container .email-header .email-title div {
+        background-color: #0A0A0A;
+        height: 180px; }
+        .email-body .email-container .email-header .email-title div p {
+          color: white;
+          font-size: 40px;
+          text-transform: uppercase;
+          font-weight: 900;
+          letter-spacing: 3px; }
     .email-body .email-container .email-content p img {
       display: inline-block;
       margin-bottom: -10px;
@@ -60,10 +56,12 @@
       margin-top: 2rem;
       color: #212121;
       font-weight: 700;
-      font-size: 5rem; }
+      font-size: 3rem; }
     .email-body .email-container .email-closing .image-wrap {
       max-width: 180px;
       margin-bottom: 1.5rem; }
+      .email-body .email-container .email-closing .image-wrap img {
+        width: 160px; }
     .email-body .email-container .email-closing p {
       padding-left: 1rem;
       color: #6D7278; }
@@ -76,7 +74,7 @@
         margin-bottom: 2rem;
         text-align: center; }
         .email-body .email-container .email-footer .image-wrap img {
-          max-width: 120px; }
+          width: 80px; }
       .email-body .email-container .email-footer .contact-info p {
         color: #6D7278 !important;
         text-align: center;
@@ -87,6 +85,6 @@
         text-decoration: none; }
         .email-body .email-container .social-media a img {
           display: inline-block;
-          width: 3rem; }
+          width: 40px; }
         .email-body .email-container .social-media a.insta {
           margin-right: 1rem; }
