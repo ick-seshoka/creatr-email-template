@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ick-seshoka/creatr-email-template#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
